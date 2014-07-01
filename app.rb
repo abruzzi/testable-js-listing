@@ -26,12 +26,8 @@ class Locations < Sinatra::Base
         @locations.select {|item| item["name"].include?(params[:location])}.to_json
     end
 
-    # get '/' do
-    #     File.open('index.html')
-    # end
-
-    # get '/test' do
-    #     File.open('SpecRunner.html')
-    # end
+    get '/' do
+        File.open('index.html')
+    end
 end
 
