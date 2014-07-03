@@ -1,5 +1,5 @@
 # set path to app that will be used to configure unicorn,
-@dir = "/Users/jtqiu/develop/lwwd/listing/"
+@dir = "/var/apps/liked"
 
 worker_processes 2
 working_directory @dir
