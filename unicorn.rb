@@ -1,5 +1,5 @@
 # set path to app that will be used to configure unicorn,
-@dir = "/var/apps/liked"
+@dir = "/var/apps/liked/current/"
 
 worker_processes 2
 working_directory @dir
